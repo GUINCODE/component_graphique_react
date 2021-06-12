@@ -1,38 +1,144 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.componentFils {
+  width: 80%;
+  height: 31rem;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box_content_input_degre {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.champInput {
+  width: 70px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.degre {
+  position: absolute;
+  top: -7px;
+  left: 148px;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 8rem;
+  height: 12rem !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fas {
+  font-size: 5rem;
+  /* color: #F29003FF; */
+  /* margin-top: -2.7rem; */
+}
+
+.cercle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border: 1px solid;
+  left: 12rem;
+  top: -1rem;
+}
+
+li {
+  list-style-type: none;
+  /* font-weight: bold; */
+  position: absolute;
+}
+
+.paneau {
+  transition: .3s ease-in-out;
+}
+
+.cardianaux li {
+  font-weight: bold;
+}
+
+.nord {
+  top: 2.3rem;
+  left: 26rem
+}
+
+.sud {
+  top: 29rem;
+  left: 26.3rem
+}
+
+.est {
+  top: 15.6rem;
+  left: 40.3rem
+}
+
+.ouest {
+  top: 15.6rem;
+  left: 11.5rem
+}
+
+/* ///// */
+
+.nord1 {
+  top: 2.3rem;
+  left: 26rem
+}
+
+.sud1 {
+  top: 29rem;
+  left: 26.3rem
+}
+
+.est1 {
+  top: 15.6rem;
+  left: 40.3rem
+}
+
+.ouest1 {
+  top: 15.6rem;
+  left: 11.5rem
+}
+
+/*  */
+
+.nord_ {
+  top: 4rem;
+  left: 25rem
+}
+
+.sud_ {
+  left: 27.2rem;
+  top: 27.3rem;
+}
+
+.est_ {
+  top: 15.6rem;
+  left: 37.7rem
+}
+
+.ouest_ {
+  top: 15.6rem;
+  left: 15.7rem
+}
+
+.nord_z {
+  top: 4rem;
+  left: 25.9rem
+}
+
+.sud_z {
+  left: 26.6rem;
+  top: 27.3rem;
+}
+
+.est_z {
+  top: 15.6rem;
+  left: 37.7rem
+}
+
+.ouest_z {
+  top: 15.6rem;
+  left: 15.7rem
 }
